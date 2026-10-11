@@ -1,1 +1,11 @@
 .history/
+
+# KiCad local state and temporary exports
+*.kicad_prl
+*.lck
+*.bak
+fp-info-cache
+*-unsaved-export*
+
+# Automatically generated project snapshots
+*-backups/
