@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/lib/ICM_42688_P")(options "")(descr ""))
+  (lib (name "LFSPXO072801REEL")(type "KiCad")(uri "${KIPRJMOD}/lib/LFSPXO072801REEL/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ESD9C3.3ST5G")(type "KiCad")(uri "${KIPRJMOD}/lib/ESD9C3_3ST5G/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "DMN53D0L_7")(type "KiCad")(uri "${KIPRJMOD}/lib/DMN53D0L_7/KiCADv6/footprints.pretty")(options "")(descr ""))
+)

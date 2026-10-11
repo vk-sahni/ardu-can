@@ -1,0 +1,432 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "566b959a-1d5f-43b1-ac3d-a46d96eedaf3")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 217.17 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28fe5793-f83d-4e45-bb28-8e5ffcd642c8")
+	)
+	(wire
+		(pts
+			(xy 217.17 41.91) (xy 224.79 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009ec453-c57c-4ce7-881e-6ecbf8f26b64")
+	)
+	(wire
+		(pts
+			(xy 205.994 82.55) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bef31bd-1487-419b-ab56-ea6244b2b811")
+	)
+	(wire
+		(pts
+			(xy 217.17 41.91) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a0fe84b-6db9-4577-a433-9fecd895ddf7")
+	)
+	(wire
+		(pts
+			(xy 209.804 41.91) (xy 217.17 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da7a79d-0557-4858-9733-502e3bf65f43")
+	)
+	(sheet
+		(at 34.29 93.726)
+		(size 48.514 23.114)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1acade6c-fa50-494c-982e-668dae8ad52f")
+		(property "Sheetname" "Accel"
+			(at 34.29 93.0144 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Accel.kicad_sch"
+			(at 34.29 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ardu-can"
+				(path "/566b959a-1d5f-43b1-ac3d-a46d96eedaf3"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 26.67)
+		(size 45.974 32.258)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3df1afe5-368c-4a18-aae2-5f98bb0d583f")
+		(property "Sheetname" "POWER_SUPPLY"
+			(at 224.79 25.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER_SUPPLY.kicad_sch"
+			(at 224.79 59.5126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VCC" input
+			(at 224.79 31.75 180)
+			(uuid "38e60c3f-aa16-4fc8-b55a-63609b15303b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3v" input
+			(at 224.79 41.91 180)
+			(uuid "403b60c1-6aca-48c1-b802-836091608a81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 224.79 36.83 180)
+			(uuid "9946b9c3-819f-46e4-afba-37758b4fec11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ardu-can"
+				(path "/566b959a-1d5f-43b1-ac3d-a46d96eedaf3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 23.622)
+		(size 46.482 25.908)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "46cac17c-32c7-4b81-8ad5-3e4affbf0776")
+		(property "Sheetname" "REVERSE_POLARITY_PROTECTION"
+			(at 33.02 22.9104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "REVERSE_POLARITY_PROTECTION.kicad_sch"
+			(at 33.02 50.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ardu-can"
+				(path "/566b959a-1d5f-43b1-ac3d-a46d96eedaf3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.354 131.064)
+		(size 44.196 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "60d9502b-bb72-4b4b-baab-7026dee8107a")
+		(property "Sheetname" "CONNECTORS"
+			(at 38.354 130.3524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONNECTORS.kicad_sch"
+			(at 38.354 151.9686 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ardu-can"
+				(path "/566b959a-1d5f-43b1-ac3d-a46d96eedaf3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.274 62.23)
+		(size 48.26 20.066)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8d0ad9f3-2e59-4620-a66e-0f7b6b39981e")
+		(property "Sheetname" "3.3_REGULATOR"
+			(at 33.274 61.5184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.3_REGULATOR.kicad_sch"
+			(at 33.274 82.8806 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ardu-can"
+				(path "/566b959a-1d5f-43b1-ac3d-a46d96eedaf3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 159.258 25.908)
+		(size 50.546 33.528)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4fbf678-48cf-4d8c-9b3a-d85b27602c3a")
+		(property "Sheetname" "CAN_DRIVER"
+			(at 159.258 25.1964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CAN_DRIVER.kicad_sch"
+			(at 159.258 60.0206 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 209.804 41.91 0)
+			(uuid "1055f627-73b5-46e6-8636-2da9de19a577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ardu-can"
+				(path "/566b959a-1d5f-43b1-ac3d-a46d96eedaf3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.528 74.422)
+		(size 45.466 56.896)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eecce63a-2e2d-4a2f-9eab-3dcdf0e1ffb6")
+		(property "Sheetname" "STM32"
+			(at 159.8164 131.318 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "STM32.kicad_sch"
+			(at 206.5786 131.318 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3.3v" input
+			(at 205.994 82.55 0)
+			(uuid "371e6bef-39fc-4d1e-a3da-37c985fc7189")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "ardu-can"
+				(path "/566b959a-1d5f-43b1-ac3d-a46d96eedaf3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
